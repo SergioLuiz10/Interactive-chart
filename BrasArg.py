@@ -30,6 +30,7 @@ def brasa():
         font=dict(size=18)
     ),
     xaxis=dict(
+        {"tickangle":-45},
         title='<b>Ano</b>',
         type='category',  
         tickmode='array',
