@@ -43,35 +43,35 @@ def brasa():
             showactive=False,
             buttons=[
                 dict(
-                    label='▶️',  # Ícone de play
+                    label='▶️', 
                     method='animate',
                     args=[None, {'frame': {'duration': 500, 'redraw': True}, 'fromcurrent': True}],
-                    x=0.1,  # Posicionando o botão à esquerda
+                    x=0.1,  
                     xanchor='center'
                 ),
                 dict(
-                    label='⏸️',  # Ícone de pause
+                    label='⏸️', 
                     method='animate',
                     args=[[None], {'frame': {'duration': 0, 'redraw': False}, 'mode': 'immediate'}],
-                    x=0.25,  # Posicionando o botão ao lado do play
+                    x=0.25,    
                     xanchor='center'
                 ),
                 dict(
-                    label='⏭️',  # Ícone de próximo
+                    label='⏭️', 
                     method='animate',
                     args=[[None], {'frame': {'duration': 500, 'redraw': True}, 'fromcurrent': False}],
-                    x=0.4,  # Posicionando o botão ao lado do pause
+                    x=0.4, 
                     xanchor='center'
                 ),
                 dict(
-                    label='⏮️',  # Ícone de anterior
+                    label='⏮️',  
                     method='animate',
                     args=[[None], {'frame': {'duration': 500, 'redraw': True}, 'fromcurrent': True}],
-                    x=0.55,  # Posicionando o botão ao lado do próximo
+                    x=0.55,   
                     xanchor='center'
                 )
             ],
-            y=-0.2,  # Movendo para baixo do gráfico
+            y=-0.2,  
             yanchor='top'
         )], 
         width=1200,
